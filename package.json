@@ -1,11 +1,18 @@
 {
-  "name": "html-blocks",
-  "version": "0.0.1",
+  "name": "html-components",
+  "version": "0.1.0",
   "description": "Several HTML components to be included in different websites",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarosaavedrad/html-components.git"
+  },
   "author": "Álvaro Saavedra",
-  "license": "ISC"
+  "bugs": {
+    "url": "https://github.com/alvarosaavedrad/html-components/issues"
+  },
+  "homepage": "https://github.com/alvarosaavedrad/html-components#readme"
 }
