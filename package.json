@@ -1,0 +1,11 @@
+{
+  "name": "html-blocks",
+  "version": "0.0.1",
+  "description": "Several HTML components to be included in different websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Álvaro Saavedra",
+  "license": "ISC"
+}
