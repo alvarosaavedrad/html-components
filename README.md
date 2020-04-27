@@ -20,6 +20,6 @@ Images in blocks turn off on hover and a white plus icon is displayed. Image cap
 
 Red line under title in left block is animated from 0 to 100 every 4 seconds. Brand images in right block change every 4 seconds too.
 
-## 2️⃣ Component
+## 3️⃣ Component
 
-Red line under title in left block is animated from 0 to 100 every 4 seconds. Brand images in right block change every 4 seconds too.
+Description line is animated as type writing every 5 seconds. Jobs number can be changed by param.
