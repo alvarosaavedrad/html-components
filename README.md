@@ -10,4 +10,4 @@ Images in blocks turn off on hover and a white plus icon is displayed. Image cap
 
 ## 2️⃣ Component
 
-Images in blocks turn off on hover and a white plus icon is displayed. Image caption becomes red on hover. Both image and caption redirect to the post.
+Red line under title in left block is animated from 0 to 100 every 4 seconds. Brand images in right block change every 4 seconds too.
