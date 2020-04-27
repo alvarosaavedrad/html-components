@@ -74,12 +74,6 @@
   };
 
   /**
-   * Controller
-   */
-
-  const foo = () => {};
-
-  /**
    * Init
    */
 
@@ -97,6 +91,7 @@
         content.blocks[i].h3.toUpperCase(),
         content.blocks[i].p
       );
+
       view.elements.blocks.insertAdjacentHTML("beforeend", el);
     }
   })();
