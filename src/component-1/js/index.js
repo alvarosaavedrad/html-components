@@ -44,10 +44,14 @@
   const view = {
     base: {
       block: (href, src, alt, h3, p) => `
-        <div>
+        <div class="component-1-block">
           <div>
+            <span>
+              <i class="fas fa-plus"></i>
+            </span>
+            
             <a href="${href}">
-                <img src="${src}" alt="${alt}" />
+              <img src="${src}" alt="${alt}" />
             </a>
           </div>
 

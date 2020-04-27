@@ -46,36 +46,54 @@ body {
   justify-content: center;
 }
 
-.component-1-blocks > div {
+.component-1-block {
   margin: 0 10px;
   padding-bottom: 16px;
-  position: relative;
   width: 100%;
   height: auto;
 }
 
-.component-1-blocks > div > div > a > img {
+.component-1-block > div {
+  position: relative;
+}
+
+.component-1-block > div > span {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.component-1-block > div > span > i {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, 50%);
+  width: 100%;
+}
+
+.component-1-block > div > a > img {
   height: auto;
   width: 100%;
   transition: all 200ms;
 }
 
-.component-1-blocks > div > div > a > img:hover {
+.component-1-block > div:hover > a > img {
   object-fit: cover;
   opacity: 0.35;
 }
 
-.component-1-blocks > div > a > h3 {
+.component-1-block > a > h3 {
   line-height: 2;
   margin-bottom: 16px;
   transition: color 300ms;
 }
 
-.component-1-blocks > div > a > h3:hover {
+.component-1-block > a > h3:hover {
   color: red;
 }
 
-.component-1-blocks > div > p {
+.component-1-block > p {
   line-height: 1.5;
   margin-bottom: 16px;
 }
