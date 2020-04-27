@@ -4,8 +4,10 @@
 
 Several HTML components for different projects.
 
-## 📖 How-to
+## 1️⃣ Component
 
-### Component 1
+Images in blocks turn off on hover and a white plus icon is displayed. Image caption becomes red on hover. Both image and caption redirect to the post.
+
+## 2️⃣ Component
 
 Images in blocks turn off on hover and a white plus icon is displayed. Image caption becomes red on hover. Both image and caption redirect to the post.
