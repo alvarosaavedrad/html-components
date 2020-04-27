@@ -14,14 +14,14 @@ All images are placeholder type and are located in `./src/assets/images/`.
 
 Binary files as images are managed with [Git LFS](https://git-lfs.github.com/).
 
-## 1️⃣ Component
+## Component 1️⃣
 
 Images in blocks turn off on hover and a white plus icon is displayed. Image caption becomes red on hover. Both image and caption redirect to the post.
 
-## 2️⃣ Component
+## Component 2️⃣
 
 Red line under title in left block is animated from 0 to 100 every 4 seconds. Brand images in right block change every 4 seconds too.
 
-## 3️⃣ Component
+## Component 3️⃣
 
 Description line is animated as type writing every 5 seconds. Jobs number can be changed by param.
