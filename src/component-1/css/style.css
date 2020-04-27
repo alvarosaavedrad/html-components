@@ -57,19 +57,20 @@ body {
   position: relative;
 }
 
-.component-1-block > div > span {
-  height: 100%;
+.component-1-block > div > div {
+  font-size: 4rem;
+  left: 50%;
+  opacity: 0;
   position: absolute;
-  width: 100%;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 200ms;
+  vertical-align: middle;
 }
 
-.component-1-block > div > span > i {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  transform: translate(-50%, 50%);
-  width: 100%;
+.component-1-block > div:hover > div {
+  opacity: 1;
 }
 
 .component-1-block > div > a > img {

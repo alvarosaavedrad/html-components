@@ -46,9 +46,7 @@
       block: (href, src, alt, h3, p) => `
         <div class="component-1-block">
           <div>
-            <span>
-              <i class="fas fa-plus"></i>
-            </span>
+            <div>+</div>
             
             <a href="${href}">
               <img src="${src}" alt="${alt}" />
