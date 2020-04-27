@@ -10,6 +10,8 @@ Open `./src/demo/demo.html` to display all components.
 
 Components texts must be overwritten by setting the `content` object which is at the beginning of every component.
 
+All images are placeholder type and are located in `./src/assets/images/`.
+
 Binary files as images are managed with [Git LFS](https://git-lfs.github.com/).
 
 ## 1️⃣ Component
