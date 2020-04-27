@@ -62,10 +62,9 @@ body {
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: bolder;
-  padding: 16px 24px;
+  padding: 20px 48px;
   text-transform: uppercase;
-  transition: all 200ms;
-  width: 80%;
+  transition: all 300ms;
 }
 
 .component-2__texts > div > button:hover {

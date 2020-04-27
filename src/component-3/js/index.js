@@ -52,9 +52,10 @@
 
     function typeWriter() {
       if (i < txt.length) {
+        const factor = txt.charAt(i) === "." ? 8 : txt.charAt(i) === "," ? 4 : 1;
         view.elements.description.textContent += txt.charAt(i);
         i++;
-        setTimeout(typeWriter, speed);
+        setTimeout(typeWriter, speed * factor);
       } else {
         setTimeout(() => {
           view.elements.description.textContent = "";

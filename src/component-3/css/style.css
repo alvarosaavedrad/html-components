@@ -28,13 +28,13 @@ body {
 }
 
 .component-3__animated-line {
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }
 
 .component-3__animated-line > div > p {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.25rem;
-  max-height: 1.25rem;
+  min-height: 3rem;
 }
 
 .animated-line__fake-cursor {
@@ -50,9 +50,9 @@ body {
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: bolder;
-  padding: 16px 24px;
+  padding: 20px 48px;
   text-transform: uppercase;
-  transition: 200ms;
+  transition: 300ms;
 }
 
 .component-3-container > div > button:hover {

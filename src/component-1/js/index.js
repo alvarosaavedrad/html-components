@@ -54,10 +54,10 @@
           </div>
 
           <a href="${href}">
-            <h3>${h3}</h3>
+            <h3 class="noselect">${h3}</h3>
           </a>
           
-          <p>${p}</p>
+          <p class="noselect">${p}</p>
         </div>`,
     },
 
