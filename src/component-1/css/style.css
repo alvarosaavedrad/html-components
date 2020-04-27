@@ -52,12 +52,13 @@ body {
   align-items: stretch;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .component-1-block {
   margin: 0 10px;
-  width: 100%;
+  width: 30%;
   height: auto;
 }
 
