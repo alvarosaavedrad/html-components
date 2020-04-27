@@ -11,20 +11,20 @@
     title: "Grandes clientes",
     description:
       "Estamos orgullosos de trabajar para grandes marcas y entidades, contribuyendo a que alcancen con éxito sus objetivos de negocio.",
-    btn: "Conoce nuestro proyectos",
+    btn: "Conoce nuestros proyectos",
     images: [
-      "./images/1.jpg", // A
-      "./images/2.jpg",
-      "./images/3.jpg",
-      "./images/4.jpg", // B
-      "./images/5.jpg",
-      "./images/6.jpg",
-      "./images/7.jpg", // C
-      "./images/8.jpg",
-      "./images/9.jpg",
-      "./images/10.jpg", // D
-      "./images/11.jpg",
-      "./images/12.jpg",
+      "../assets/images/1.jpg", // A
+      "../assets/images/2.jpg",
+      "../assets/images/3.jpg",
+      "../assets/images/4.jpg", // B
+      "../assets/images/5.jpg",
+      "../assets/images/6.jpg",
+      "../assets/images/7.jpg", // C
+      "../assets/images/8.jpg",
+      "../assets/images/9.jpg",
+      "../assets/images/10.jpg", // D
+      "../assets/images/11.jpg",
+      "../assets/images/12.jpg",
     ],
   };
 
@@ -86,7 +86,7 @@
 
     // Init intervals
     for (let i = 0; i < view.elements.images.length; i++) {
-      view.elements.images[i].setAttribute("src", content.images[i]);
+      view.elements.images[i].setAttribute("src", content.images[i * 3]);
       carousel(i, i * 3);
     }
   })();

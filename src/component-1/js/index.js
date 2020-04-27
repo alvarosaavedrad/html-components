@@ -15,21 +15,21 @@
     blocks: [
       {
         href: "#",
-        src: "./images/placeholder.jpg",
+        src: "../assets/images/placeholder.jpg",
         alt: "tecnología",
         h3: "tecnología",
         p: "Construímos, migramos y optimizamos grandes sistemas de información en entornos web y móvil.",
       },
       {
         href: "#",
-        src: "./images/placeholder.jpg",
+        src: "../assets/images/placeholder.jpg",
         alt: "digital",
         h3: "digital",
         p: "Definimos, medidos y mejoramos la estrategia digital de nuestros clientes orientada a objetivos.",
       },
       {
         href: "#",
-        src: "./images/placeholder.jpg",
+        src: "../assets/images/placeholder.jpg",
         alt: "outsourcing",
         h3: "outsourcing",
         p: "Tenemos los mejores profesionales, herramientas y técnicas para la externalización de servicios TI.",
