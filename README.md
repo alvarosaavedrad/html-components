@@ -6,4 +6,8 @@ Several HTML components for different projects.
 
 ## 📖 How-to
 
-Pending
+### Component 1
+
+Images in blocks turn off on hover and an icon is displayed. Image caption becomes red on hover. Both image and caption redirect to the post.
+
+![Component 1](https://gdurl.com/h5Yi)
