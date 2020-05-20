@@ -1,0 +1,21 @@
+@mixin container($bg-color, $color) {
+  background-color: $bg-color;
+  color: $color;
+  padding: 2rem 3.5rem;
+}
+
+@mixin container-flex($a, $d, $j) {
+  align-items: $a;
+  display: flex;
+  flex-direction: $d;
+  flex-wrap: wrap;
+  justify-content: $j;
+}
+
+@mixin row-with-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}

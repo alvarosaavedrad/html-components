@@ -11,27 +11,26 @@
     title: "Descubre cómo podemos ayudarte",
     subtitle:
       "Emergya divide sus servicios y soluciones en varias áreas de<br/>especialización que, de forma individual o conjunta, maximizan los<br/>beneficios del cliente",
-
     blocks: [
       {
         href: "#",
-        src: "../assets/images/placeholder.jpg",
+        src: "./assets/images/placeholder.jpg",
         alt: "tecnología",
-        h3: "tecnología",
+        h4: "tecnología",
         p: "Construímos, migramos y optimizamos grandes sistemas de información en entornos web y móvil.",
       },
       {
         href: "#",
-        src: "../assets/images/placeholder.jpg",
+        src: "./assets/images/placeholder.jpg",
         alt: "digital",
-        h3: "digital",
+        h4: "digital",
         p: "Definimos, medidos y mejoramos la estrategia digital de nuestros clientes orientada a objetivos.",
       },
       {
         href: "#",
-        src: "../assets/images/placeholder.jpg",
+        src: "./assets/images/placeholder.jpg",
         alt: "outsourcing",
-        h3: "outsourcing",
+        h4: "outsourcing",
         p: "Tenemos los mejores profesionales, herramientas y técnicas para la externalización de servicios TI.",
       },
     ],
@@ -43,8 +42,8 @@
 
   const view = {
     base: {
-      block: (href, src, alt, h3, p) => `
-        <div class="component-1-block">
+      block: (href, src, alt, h4, p) => `
+        <div class="component-1__block">
           <div>
             <div>+</div>
             
@@ -54,7 +53,7 @@
           </div>
 
           <a href="${href}">
-            <h3 class="noselect">${h3}</h3>
+            <h4 class="noselect">${h4}</h4>
           </a>
           
           <p class="noselect">${p}</p>
@@ -62,14 +61,14 @@
     },
 
     elements: {
-      main: document.querySelector(".component-1-container"),
+      main: document.querySelector(".component-1__container"),
       texts: {
-        main: document.querySelector(".component-1-texts"),
-        h3: document.querySelector(".component-1-texts h3"),
-        span: document.querySelector(".component-1-texts span"),
-        p: document.querySelector(".component-1-texts p"),
+        main: document.querySelector(".component-1__texts"),
+        h3: document.querySelector(".component-1__texts h3"),
+        span: document.querySelector(".component-1__texts span"),
+        p: document.querySelector(".component-1__texts p"),
       },
-      blocks: document.querySelector(".component-1-blocks"),
+      blocks: document.querySelector(".component-1__blocks"),
     },
   };
 
@@ -88,7 +87,7 @@
         content.blocks[i].href,
         content.blocks[i].src,
         content.blocks[i].alt,
-        content.blocks[i].h3.toUpperCase(),
+        content.blocks[i].h4.toUpperCase(),
         content.blocks[i].p
       );
 

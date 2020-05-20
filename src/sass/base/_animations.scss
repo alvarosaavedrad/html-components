@@ -1,0 +1,60 @@
+@keyframes blinkCaret {
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: $color-white;
+  }
+}
+
+@keyframes imgFadeAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  8% {
+    opacity: 1;
+  }
+
+  92% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes imageHoverEffect {
+  0% {
+    background-color: rgba($color-black, 0);
+  }
+
+  100% {
+    background-color: rgba($color-black, 0.5);
+  }
+}
+
+@keyframes lineAnimation {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

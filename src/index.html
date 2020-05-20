@@ -5,35 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../component-1/css/style.css" />
-    <link rel="stylesheet" href="../component-2/css/style.css" />
-    <link rel="stylesheet" href="../component-3/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
-    <title>📦 HTML Components 📦 | Demo</title>
+    <title>📦 HTML Components 📦</title>
   </head>
 
   <body>
     <!---------- Component 1 ---------->
-    <div id="component-1" class="component-1-container">
+    <div id="component-1" class="component-1__container">
       <!-- Texts -->
-      <div class="component-1-texts">
+      <div class="component-1__texts">
         <h3 class="noselect"></h3>
         <hr />
         <p class="noselect"></p>
       </div>
 
       <!-- Blocks -->
-      <div class="component-1-blocks"></div>
+      <div class="component-1__blocks"></div>
     </div>
 
     <!---------- Component 2 ---------->
-    <div id="component-2" class="component-2-container">
+    <div id="component-2" class="component-2__container">
       <!-- Texts -->
       <div class="component-2__texts">
         <h3 class="noselect"></h3>
 
         <div class="component-2__line-container">
-          <div></div>
+          <div class="component-2__line"></div>
         </div>
 
         <div>
@@ -41,26 +39,26 @@
         </div>
 
         <div>
-          <button class="noselect"></button>
+          <button class="btn btn-primary noselect"></button>
         </div>
       </div>
 
       <!-- Images -->
       <div class="component-2__images">
-        <div class="component-2__img-row-1">
-          <div class="component-2__img-1"><img src="" alt="" /></div>
-          <div class="component-2__img-2"><img src="" alt="" /></div>
+        <div class="component-2__images-row--1">
+          <div class="component-2__image--1"><img src="" alt="" /></div>
+          <div class="component-2__image--2"><img src="" alt="" /></div>
         </div>
 
-        <div class="component-2__img-row-2">
-          <div class="component-2__img-3"><img src="" alt="" /></div>
-          <div class="component-2__img-4"><img src="" alt="" /></div>
+        <div class="component-2__images-row--2">
+          <div class="component-2__image--3"><img src="" alt="" /></div>
+          <div class="component-2__image--4"><img src="" alt="" /></div>
         </div>
       </div>
     </div>
 
     <!---------- Component 3 ---------->
-    <div id="component-3" class="component-3-container">
+    <div id="component-3" class="component-3__container">
       <h3 class="noselect"></h3>
 
       <div class="component-3__animated-line">
@@ -72,13 +70,13 @@
       </div>
 
       <div>
-        <button class="noselect"></button>
+        <button class="btn btn-primary noselect"></button>
       </div>
     </div>
 
     <!---------- JavaScript ---------->
-    <script src="../component-1/js/index.js"></script>
-    <script src="../component-2/js/index.js"></script>
-    <script src="../component-3/js/index.js"></script>
+    <script src="./js/component-1.js"></script>
+    <script src="./js/component-2.js"></script>
+    <script src="./js/component-3.js"></script>
   </body>
 </html>

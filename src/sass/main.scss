@@ -1,0 +1,153 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+
+@import "pages/home";
+
+// Component 1
+.component-1__container {
+  @include container($color-corporate-secondary, $color-white);
+
+  .component-1__texts {
+    hr {
+      border-style: dashed;
+      margin: 0 auto;
+      width: 8rem;
+    }
+  }
+
+  .component-1__blocks {
+    @include container-flex(initial, row, center);
+
+    .component-1__block {
+      margin: 0 1rem;
+      width: 30%;
+      height: auto;
+
+      a {
+        h3 {
+          line-height: 2;
+          margin-bottom: 1rem;
+          transition: color 300ms;
+        }
+
+        &:hover {
+          color: $color-corporate-primary;
+        }
+      }
+
+      div {
+        position: relative;
+
+        a {
+          img {
+            height: auto;
+            width: 100%;
+            transition: all 300ms;
+          }
+        }
+
+        div {
+          left: 50%;
+          opacity: 0;
+          position: absolute;
+          text-align: center;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          transition: all 300ms;
+          vertical-align: middle;
+        }
+
+        &:hover {
+          div {
+            opacity: 1;
+
+            a {
+              img {
+                object-fit: cover;
+                opacity: 0.35;
+              }
+            }
+          }
+        }
+      }
+
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+// Component 2
+.component-2__container {
+  @include container($color-white, $color-text-dark-primary);
+  @include container-flex(center, row, space-between);
+
+  .component-2__texts {
+    position: relative;
+    width: 35%;
+
+    .component-2__line-container {
+      height: 0.25rem;
+      margin-bottom: 1.5rem;
+      width: 100%;
+
+      .component-2__line {
+        animation: lineAnimation 4000ms ease-in-out infinite;
+        background-color: $color-corporate-primary;
+        height: 0.25rem;
+      }
+    }
+  }
+
+  .component-2__images {
+    @include container-flex(center, column, initial);
+    width: 60%;
+
+    .component-2__images-row--1 {
+      border-bottom: 1px solid rgba($color-black, 0.05);
+    }
+
+    .component-2__images-row--1,
+    .component-2__images-row--2 {
+      @include row-with-images;
+
+      div {
+        position: relative;
+        text-align: center;
+        width: 45%;
+
+        img {
+          animation: imgFadeAnimation 4000ms ease-in-out infinite;
+          height: 8rem;
+          width: auto;
+        }
+      }
+    }
+
+    .component-2__image--1,
+    .component-2__image--3 {
+      border-right: 1px solid rgba($color-black, 0.05);
+    }
+  }
+}
+
+// Component 3
+.component-3__container {
+  @include container($color-corporate-primary, $color-white);
+
+  .component-3__animated-line {
+    .animated-line__fake-cursor {
+      animation: blinkCaret 0.75s step-end infinite;
+      border-right: 0.15em solid $color-white;
+    }
+  }
+}

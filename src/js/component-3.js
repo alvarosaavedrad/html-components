@@ -28,10 +28,10 @@
     base: {},
 
     elements: {
-      main: document.querySelector(".component-3-container"),
-      title: document.querySelector(".component-3-container h3"),
-      description: document.querySelector(".component-3-container div div p .animated-line__description"),
-      button: document.querySelector(".component-3-container div button"),
+      main: document.querySelector(".component-3__container"),
+      title: document.querySelector(".component-3__container h3"),
+      description: document.querySelector(".component-3__container div div p .animated-line__description"),
+      button: document.querySelector(".component-3__container div button"),
     },
   };
 

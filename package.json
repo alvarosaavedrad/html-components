@@ -4,7 +4,7 @@
   "description": "Several HTML components to be included in different websites",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass src/sass/main.scss src/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/alvarosaavedrad/html-components/issues"
   },
-  "homepage": "https://github.com/alvarosaavedrad/html-components#readme"
+  "homepage": "https://github.com/alvarosaavedrad/html-components#readme",
+  "devDependencies": {}
 }

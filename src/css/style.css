@@ -1,0 +1,271 @@
+@keyframes blinkCaret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #ffffff;
+  }
+}
+@keyframes imgFadeAnimation {
+  0% {
+    opacity: 0;
+  }
+  8% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes imageHoverEffect {
+  0% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes lineAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.component-1__texts {
+  text-align: center;
+}
+
+.component-3__container {
+  text-align: center;
+}
+.component-3__container .component-3__animated-line div p {
+  font-family: "Courier New", Courier, monospace;
+  min-height: 3rem;
+}
+
+.btn, .btn:link, .btn:visited {
+  border: none;
+  border-radius: 10rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 1.5rem 4rem;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.btn:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.btn:active, .btn:focus {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+.btn--primary {
+  background-color: #ff0000;
+  color: rgba(255, 255, 255, 0.85);
+}
+.btn--secondary {
+  background-color: #091d3a;
+  color: rgba(255, 255, 255, 0.85);
+}
+.btn--white {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.85);
+}
+.btn--animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+
+.component-1__container {
+  background-color: #091d3a;
+  color: #ffffff;
+  padding: 2rem 3.5rem;
+}
+.component-1__container .component-1__texts hr {
+  border-style: dashed;
+  margin: 0 auto;
+  width: 8rem;
+}
+.component-1__container .component-1__blocks {
+  align-items: initial;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.component-1__container .component-1__blocks .component-1__block {
+  margin: 0 1rem;
+  width: 30%;
+  height: auto;
+}
+.component-1__container .component-1__blocks .component-1__block a h3 {
+  line-height: 2;
+  margin-bottom: 1rem;
+  transition: color 300ms;
+}
+.component-1__container .component-1__blocks .component-1__block a:hover {
+  color: #ff0000;
+}
+.component-1__container .component-1__blocks .component-1__block div {
+  position: relative;
+}
+.component-1__container .component-1__blocks .component-1__block div a img {
+  height: auto;
+  width: 100%;
+  transition: all 300ms;
+}
+.component-1__container .component-1__blocks .component-1__block div div {
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 300ms;
+  vertical-align: middle;
+}
+.component-1__container .component-1__blocks .component-1__block div:hover div {
+  opacity: 1;
+}
+.component-1__container .component-1__blocks .component-1__block div:hover div a img {
+  object-fit: cover;
+  opacity: 0.35;
+}
+.component-1__container .component-1__blocks .component-1__block p {
+  margin-bottom: 1rem;
+}
+
+.component-2__container {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.85);
+  padding: 2rem 3.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.component-2__container .component-2__texts {
+  position: relative;
+  width: 35%;
+}
+.component-2__container .component-2__texts .component-2__line-container {
+  height: 0.25rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+.component-2__container .component-2__texts .component-2__line-container .component-2__line {
+  animation: lineAnimation 4000ms ease-in-out infinite;
+  background-color: #ff0000;
+  height: 0.25rem;
+}
+.component-2__container .component-2__images {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: initial;
+  width: 60%;
+}
+.component-2__container .component-2__images .component-2__images-row--1 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.component-2__container .component-2__images .component-2__images-row--1,
+.component-2__container .component-2__images .component-2__images-row--2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.component-2__container .component-2__images .component-2__images-row--1 div,
+.component-2__container .component-2__images .component-2__images-row--2 div {
+  position: relative;
+  text-align: center;
+  width: 45%;
+}
+.component-2__container .component-2__images .component-2__images-row--1 div img,
+.component-2__container .component-2__images .component-2__images-row--2 div img {
+  animation: imgFadeAnimation 4000ms ease-in-out infinite;
+  height: 8rem;
+  width: auto;
+}
+.component-2__container .component-2__images .component-2__image--1,
+.component-2__container .component-2__images .component-2__image--3 {
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.component-3__container {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 2rem 3.5rem;
+}
+.component-3__container .component-3__animated-line .animated-line__fake-cursor {
+  animation: blinkCaret 0.75s step-end infinite;
+  border-right: 0.15em solid #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */

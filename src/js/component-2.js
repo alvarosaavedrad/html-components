@@ -13,18 +13,18 @@
       "Estamos orgullosos de trabajar para grandes marcas y entidades, contribuyendo a que alcancen con éxito sus objetivos de negocio.",
     btn: "Conoce nuestros proyectos",
     images: [
-      "../assets/images/1.jpg", // A
-      "../assets/images/2.jpg",
-      "../assets/images/3.jpg",
-      "../assets/images/4.jpg", // B
-      "../assets/images/5.jpg",
-      "../assets/images/6.jpg",
-      "../assets/images/7.jpg", // C
-      "../assets/images/8.jpg",
-      "../assets/images/9.jpg",
-      "../assets/images/10.jpg", // D
-      "../assets/images/11.jpg",
-      "../assets/images/12.jpg",
+      "./assets/images/1.jpg", // A
+      "./assets/images/2.jpg",
+      "./assets/images/3.jpg",
+      "./assets/images/4.jpg", // B
+      "./assets/images/5.jpg",
+      "./assets/images/6.jpg",
+      "./assets/images/7.jpg", // C
+      "./assets/images/8.jpg",
+      "./assets/images/9.jpg",
+      "./assets/images/10.jpg", // D
+      "./assets/images/11.jpg",
+      "./assets/images/12.jpg",
     ],
   };
 
@@ -43,15 +43,15 @@
     base: {},
 
     elements: {
-      main: document.querySelector(".component-2-container"),
+      main: document.querySelector(".component-2__container"),
       title: document.querySelector(".component-2__texts h3"),
       description: document.querySelector(".component-2__texts div p"),
       button: document.querySelector(".component-2__texts div button"),
       images: [
-        document.querySelector(".component-2__img-1 img"),
-        document.querySelector(".component-2__img-2 img"),
-        document.querySelector(".component-2__img-3 img"),
-        document.querySelector(".component-2__img-4 img"),
+        document.querySelector(".component-2__image--1 img"),
+        document.querySelector(".component-2__image--2 img"),
+        document.querySelector(".component-2__image--3 img"),
+        document.querySelector(".component-2__image--4 img"),
       ],
     },
   };
