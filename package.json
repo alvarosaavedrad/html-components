@@ -1,7 +1,7 @@
 {
   "name": "html-components",
   "version": "0.1.0",
-  "description": "Several HTML components to be included in different websites",
+  "description": "3 HTML components to test my skills.",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch src/sass/main.scss src/css/style.css"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/alvarosaavedrad/html-components.git"
   },
-  "author": "Álvaro Saavedra",
+  "author": "Álvaro Saavedra @alvarooncode",
   "bugs": {
     "url": "https://github.com/alvarosaavedrad/html-components/issues"
   },

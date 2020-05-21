@@ -2,7 +2,7 @@
 
 ## 🔖 Description
 
-Several HTML components for different projects.
+3 HTML components to test my skills.
 
 ## 📖 How-to
 
@@ -11,6 +11,12 @@ Open `./src/index.html` to display all components.
 All images are located in `./src/assets/images/`.
 
 Binary files as images are managed with [Git LFS](https://git-lfs.github.com/).
+
+Web styling is made with [SCSS](https://sass-lang.com/) and keeping in mind the [7-1 Sass Architecture](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture).
+
+To bundle all stylesheets use `npm run compile:sass`. Mind this command will run as a `watcher`.
+
+In order to code faster `live-server` package is used to refresh the browser automatically after every change.
 
 ### Component 1️⃣
 
