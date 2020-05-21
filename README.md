@@ -12,7 +12,7 @@ All images are located in `./src/assets/images/`.
 
 Binary files as images are managed with [Git LFS](https://git-lfs.github.com/).
 
-Web styling is made with [SCSS](https://sass-lang.com/) and keeping in mind the [7-1 Sass Architecture](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture).
+Web styling is made with [SCSS](https://sass-lang.com/) and keeping in mind [7-1 Sass Architecture](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture) and [BEM pattern](https://css-tricks.com/bem-101/).
 
 To bundle all stylesheets use `npm run compile:sass`. Mind this command will run as a `watcher`.
 
