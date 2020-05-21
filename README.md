@@ -18,12 +18,18 @@ All images are located in `./src/assets/images/`.
 
 ### Component 1️⃣
 
+<img src="https://media.githubusercontent.com/media/alvarosaavedrad/html-components/master/src/assets/images/component-1.jpg" />
+
 Images in blocks turn off on hover and a white plus icon is displayed. Image caption becomes red on hover. Both image and caption redirect to the post.
 
 ### Component 2️⃣
 
+<img src="https://media.githubusercontent.com/media/alvarosaavedrad/html-components/master/src/assets/images/component-2.jpg" />
+
 Red line under title in left block is animated from 0 to 100 every 4 seconds. Brand images in right block change every 4 seconds too.
 
 ### Component 3️⃣
+
+<img src="https://media.githubusercontent.com/media/alvarosaavedrad/html-components/master/src/assets/images/component-3.jpg" />
 
 Description line is animated as writing effect every 5 seconds. Jobs number can be changed by param.
