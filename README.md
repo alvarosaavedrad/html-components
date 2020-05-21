@@ -16,19 +16,19 @@ All images are located in `./src/assets/images/`.
 
 > ⚠️ Binary files as images are managed with [Git LFS](https://git-lfs.github.com/).
 
-### Component 1️⃣
+## Component 1️⃣
 
 <img src="https://media.githubusercontent.com/media/alvarosaavedrad/html-components/master/src/assets/images/component-1.jpg" />
 
 Images in blocks turn off on hover and a white plus icon is displayed. Image caption becomes red on hover. Both image and caption redirect to the post.
 
-### Component 2️⃣
+## Component 2️⃣
 
 <img src="https://media.githubusercontent.com/media/alvarosaavedrad/html-components/master/src/assets/images/component-2.jpg" />
 
 Red line under title in left block is animated from 0 to 100 every 4 seconds. Brand images in right block change every 4 seconds too.
 
-### Component 3️⃣
+## Component 3️⃣
 
 <img src="https://media.githubusercontent.com/media/alvarosaavedrad/html-components/master/src/assets/images/component-3.jpg" />
 
