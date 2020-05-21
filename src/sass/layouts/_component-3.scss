@@ -1,7 +1,7 @@
 .component-3__container {
   @include container($color-corporate-primary, $color-white);
 
-  padding: 5rem 0 5rem 25vw;
+  padding: 5rem 10vw 5rem 25vw;
 
   .component-3__animated-line {
     .animated-line__fake-cursor {

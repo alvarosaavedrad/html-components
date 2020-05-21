@@ -15,9 +15,7 @@
    */
 
   const content = {
-    title: "Únete a nuestro equipo",
     description: `Actualmente tenemos disponibles ${data.jobs} ofertas. ¡Descúbrelas!`,
-    btn: "Ver todas las ofertas",
   };
 
   /**
@@ -25,13 +23,8 @@
    */
 
   const view = {
-    base: {},
-
     elements: {
-      main: document.querySelector(".component-3__container"),
-      title: document.querySelector(".component-3__container h3"),
       description: document.querySelector(".component-3__container div div p .animated-line__description"),
-      button: document.querySelector(".component-3__container div button"),
     },
   };
 
@@ -70,10 +63,6 @@
    */
 
   (function () {
-    // Set texts
-    view.elements.title.textContent = content.title;
-    view.elements.button.textContent = content.btn;
-
     // Init Type Writer
     initTypeWriter();
   })();

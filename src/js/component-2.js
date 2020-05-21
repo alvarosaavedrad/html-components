@@ -4,14 +4,10 @@
 
 (() => {
   /**
-   * Add widget texts here!
+   * Content
    */
 
   const content = {
-    title: "Grandes clientes",
-    description:
-      "Estamos orgullosos de trabajar para grandes marcas y entidades, contribuyendo a que alcancen con éxito sus objetivos de negocio.",
-    btn: "Conoce nuestros proyectos",
     images: [
       "./assets/images/css.png", // A
       "./assets/images/docker.png",
@@ -40,13 +36,7 @@
    */
 
   const view = {
-    base: {},
-
     elements: {
-      main: document.querySelector(".component-2__container"),
-      title: document.querySelector(".component-2__texts h3"),
-      description: document.querySelector(".component-2__texts div p"),
-      button: document.querySelector(".component-2__texts div button"),
       images: [
         document.querySelector(".component-2__image--1 img"),
         document.querySelector(".component-2__image--2 img"),
@@ -79,11 +69,6 @@
    */
 
   (function () {
-    // Set texts
-    view.elements.title.textContent = content.title;
-    view.elements.description.textContent = content.description;
-    view.elements.button.textContent = content.btn;
-
     // Init intervals
     for (let i = 0; i < view.elements.images.length; i++) {
       view.elements.images[i].setAttribute("src", content.images[i * 3]);

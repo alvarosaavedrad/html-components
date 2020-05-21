@@ -22,7 +22,7 @@
   .component-2__images {
     @include container-flex(center, column, initial);
 
-    padding: 2rem;
+    padding: 0 4rem;
     width: 60%;
 
     .component-2__images-row--1 {
@@ -53,13 +53,15 @@
   }
 }
 
-@media (max-width: $breakpoints-tablet*1.25) {
+@media (max-width: $breakpoints-desktop) {
   .component-2__container {
     .component-2__images {
+      padding: 0 2rem;
+
       .component-2__images-row--1,
       .component-2__images-row--2 {
         div {
-          padding: 3rem;
+          padding: 3.25rem;
         }
       }
     }
@@ -77,6 +79,7 @@
     }
 
     .component-2__images {
+      padding: 0;
       width: 100%;
     }
   }
@@ -88,7 +91,7 @@
       .component-2__images-row--1,
       .component-2__images-row--2 {
         div {
-          padding: 2.5rem;
+          padding: 2rem;
         }
       }
     }

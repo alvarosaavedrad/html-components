@@ -126,6 +126,9 @@ p {
   margin: 0 auto 1.25rem auto;
   width: 50%;
 }
+.component-1__container .component-1__blocks .component-1__block a h4 {
+  text-transform: uppercase;
+}
 
 .component-3__container .component-3__animated-line div p {
   font-family: "Courier New", Courier, monospace;
@@ -351,7 +354,7 @@ p {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: initial;
-  padding: 2rem;
+  padding: 0 4rem;
   width: 60%;
 }
 .component-2__container .component-2__images .component-2__images-row--1 {
@@ -382,10 +385,13 @@ p {
   border-right: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1024px) {
+  .component-2__container .component-2__images {
+    padding: 0 2rem;
+  }
   .component-2__container .component-2__images .component-2__images-row--1 div,
 .component-2__container .component-2__images .component-2__images-row--2 div {
-    padding: 3rem;
+    padding: 3.25rem;
   }
 }
 @media (max-width: 768px) {
@@ -396,13 +402,14 @@ p {
     text-align: center;
   }
   .component-2__container .component-2__images {
+    padding: 0;
     width: 100%;
   }
 }
 @media (max-width: 640px) {
   .component-2__container .component-2__images .component-2__images-row--1 div,
 .component-2__container .component-2__images .component-2__images-row--2 div {
-    padding: 2.5rem;
+    padding: 2rem;
   }
 }
 @media (max-width: 384px) {
@@ -415,7 +422,7 @@ p {
   background-color: #ff0000;
   color: #ffffff;
   padding: 3rem 6rem;
-  padding: 5rem 0 5rem 25vw;
+  padding: 5rem 10vw 5rem 25vw;
 }
 @media (max-width: 768px) {
   .component-3__container {

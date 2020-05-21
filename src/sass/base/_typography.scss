@@ -59,6 +59,16 @@ p {
       width: 50%;
     }
   }
+
+  .component-1__blocks {
+    .component-1__block {
+      a {
+        h4 {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
 }
 
 .component-3__container {
