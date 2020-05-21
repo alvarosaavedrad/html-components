@@ -8,7 +8,7 @@
     display: inline-block;
     font-size: 1.25rem;
     font-weight: bold;
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 3.5rem;
     position: relative;
     text-transform: uppercase;
     text-decoration: none;
@@ -70,6 +70,28 @@
   div {
     .btn--primary {
       border: $border-btn solid $color-white;
+    }
+  }
+}
+
+@media (max-width: $breakpoints-tablet) {
+  .btn {
+    &,
+    &:link,
+    &:visited {
+      font-size: 1rem;
+      padding: 1rem 1.5rem;
+    }
+  }
+}
+
+@media (max-width: $breakpoints-phone) {
+  .btn {
+    &,
+    &:link,
+    &:visited {
+      font-size: 0.85rem;
+      padding: 0.5rem 1rem;
     }
   }
 }

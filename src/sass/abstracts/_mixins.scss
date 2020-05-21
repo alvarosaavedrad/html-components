@@ -2,6 +2,14 @@
   background-color: $bg-color;
   color: $color;
   padding: 3rem 6rem;
+
+  @media (max-width: $breakpoints-tablet) {
+    padding: 2rem 4rem;
+  }
+
+  @media (max-width: $breakpoints-phone) {
+    padding: 1rem 2.5rem;
+  }
 }
 
 @mixin container-flex($a, $d, $j) {
@@ -10,12 +18,4 @@
   flex-direction: $d;
   flex-wrap: wrap;
   justify-content: $j;
-}
-
-@mixin row-with-images {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
 }

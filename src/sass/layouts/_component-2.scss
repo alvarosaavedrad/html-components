@@ -4,7 +4,7 @@
 
   .component-2__texts {
     position: relative;
-    width: 35%;
+    width: 40%;
 
     .component-2__line-container {
       height: 0.25rem;
@@ -21,6 +21,8 @@
 
   .component-2__images {
     @include container-flex(center, column, initial);
+
+    padding: 2rem;
     width: 60%;
 
     .component-2__images-row--1 {
@@ -29,18 +31,17 @@
 
     .component-2__images-row--1,
     .component-2__images-row--2 {
-      @include row-with-images;
+      @include container-flex(center, row, initial);
 
       div {
-        position: relative;
+        padding: 4rem;
         text-align: center;
-        width: 45%;
+        width: 50%;
 
         img {
           animation: imgFadeAnimation 4000ms ease-in-out infinite;
-          height: 8rem;
-          margin: 2rem;
-          width: auto;
+          height: auto;
+          width: 100%;
         }
       }
     }
@@ -48,6 +49,61 @@
     .component-2__image--1,
     .component-2__image--3 {
       border-right: 1px solid rgba($color-black, 0.05);
+    }
+  }
+}
+
+@media (max-width: $breakpoints-tablet*1.25) {
+  .component-2__container {
+    .component-2__images {
+      .component-2__images-row--1,
+      .component-2__images-row--2 {
+        div {
+          padding: 3rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoints-tablet) {
+  .component-2__container {
+    .component-2__texts {
+      width: 100%;
+
+      .component-2__btn-container {
+        text-align: center;
+      }
+    }
+
+    .component-2__images {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: $breakpoints-phone) {
+  .component-2__container {
+    .component-2__images {
+      .component-2__images-row--1,
+      .component-2__images-row--2 {
+        div {
+          padding: 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoints-phone*0.6) {
+  .component-2__container {
+    .component-2__images {
+      .component-2__images-row--1,
+      .component-2__images-row--2 {
+        div {
+          padding: 1rem;
+        }
+      }
     }
   }
 }

@@ -61,9 +61,16 @@
           }
         }
       }
+    }
+  }
+}
 
-      p {
-        margin-bottom: 1rem;
+@media (max-width: $breakpoints-tablet) {
+  .component-1__container {
+    .component-1__blocks {
+      .component-1__block {
+        margin-bottom: 2rem;
+        width: 100%;
       }
     }
   }

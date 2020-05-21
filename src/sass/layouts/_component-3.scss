@@ -1,10 +1,20 @@
 .component-3__container {
   @include container($color-corporate-primary, $color-white);
 
+  padding: 5rem 0 5rem 25vw;
+
   .component-3__animated-line {
     .animated-line__fake-cursor {
       animation: blinkCaret 0.75s step-end infinite;
       border-right: 0.15em solid $color-white;
     }
+  }
+}
+
+@media (max-width: $breakpoints-tablet) {
+  .component-3__container {
+    @include container($color-corporate-primary, $color-white);
+
+    text-align: center;
   }
 }
