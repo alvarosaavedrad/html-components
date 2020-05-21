@@ -6,7 +6,7 @@ Several HTML components for different projects.
 
 ## 📖 How-to
 
-Open `./src/demo/demo.html` to display all components.
+Open `./src/index.html` to display all components.
 
 Components texts must be overwritten by setting the `content` object which is at the beginning of every component.
 
