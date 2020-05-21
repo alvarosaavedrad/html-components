@@ -1,0 +1,70 @@
+.component-1__container {
+  @include container($color-corporate-secondary, $color-white);
+
+  .component-1__texts {
+    hr {
+      border-style: dashed;
+      margin: 0 auto 1rem auto;
+      width: 8rem;
+    }
+  }
+
+  .component-1__blocks {
+    @include container-flex(initial, row, space-between);
+
+    .component-1__block {
+      width: 31%;
+      height: auto;
+
+      a {
+        &:hover {
+          color: $color-corporate-primary;
+        }
+      }
+
+      div {
+        margin-bottom: 1rem;
+        position: relative;
+
+        a {
+          div {
+            background-color: $color-corporate-secondary;
+            height: 100%;
+            opacity: 0;
+            position: absolute;
+            transition: all 300ms;
+            width: 100%;
+
+            p {
+              color: $color-white;
+              font-size: 6rem;
+              left: 50%;
+              margin: 0;
+              position: absolute;
+              text-align: center;
+              top: 50%;
+              transform: translate(-50%, -50%);
+            }
+          }
+
+          img {
+            height: auto;
+            object-fit: cover;
+            transition: all 300ms;
+            width: 100%;
+          }
+
+          &:hover {
+            div {
+              opacity: 0.65;
+            }
+          }
+        }
+      }
+
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

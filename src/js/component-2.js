@@ -13,18 +13,18 @@
       "Estamos orgullosos de trabajar para grandes marcas y entidades, contribuyendo a que alcancen con éxito sus objetivos de negocio.",
     btn: "Conoce nuestros proyectos",
     images: [
-      "./assets/images/1.jpg", // A
-      "./assets/images/2.jpg",
-      "./assets/images/3.jpg",
-      "./assets/images/4.jpg", // B
-      "./assets/images/5.jpg",
-      "./assets/images/6.jpg",
-      "./assets/images/7.jpg", // C
-      "./assets/images/8.jpg",
-      "./assets/images/9.jpg",
-      "./assets/images/10.jpg", // D
-      "./assets/images/11.jpg",
-      "./assets/images/12.jpg",
+      "./assets/images/css.png", // A
+      "./assets/images/docker.png",
+      "./assets/images/github.png",
+      "./assets/images/html5.png", // B
+      "./assets/images/js.png",
+      "./assets/images/mongodb.png",
+      "./assets/images/node.png", // C
+      "./assets/images/postman.png",
+      "./assets/images/sass.png",
+      "./assets/images/ubuntu.png", // D
+      "./assets/images/vscode.png",
+      "./assets/images/vue.png",
     ],
   };
 

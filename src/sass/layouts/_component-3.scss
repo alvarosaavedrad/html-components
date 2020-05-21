@@ -1,0 +1,10 @@
+.component-3__container {
+  @include container($color-corporate-primary, $color-white);
+
+  .component-3__animated-line {
+    .animated-line__fake-cursor {
+      animation: blinkCaret 0.75s step-end infinite;
+      border-right: 0.15em solid $color-white;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.component-2__container {
+  @include container($color-white, $color-text-dark-primary);
+  @include container-flex(center, row, space-between);
+
+  .component-2__texts {
+    position: relative;
+    width: 35%;
+
+    .component-2__line-container {
+      height: 0.25rem;
+      margin-bottom: 1.5rem;
+      width: 100%;
+
+      .component-2__line {
+        animation: lineAnimation 4000ms ease-in-out infinite;
+        background-color: $color-corporate-primary;
+        height: 0.25rem;
+      }
+    }
+  }
+
+  .component-2__images {
+    @include container-flex(center, column, initial);
+    width: 60%;
+
+    .component-2__images-row--1 {
+      border-bottom: 1px solid rgba($color-black, 0.05);
+    }
+
+    .component-2__images-row--1,
+    .component-2__images-row--2 {
+      @include row-with-images;
+
+      div {
+        position: relative;
+        text-align: center;
+        width: 45%;
+
+        img {
+          animation: imgFadeAnimation 4000ms ease-in-out infinite;
+          height: 8rem;
+          margin: 2rem;
+          width: auto;
+        }
+      }
+    }
+
+    .component-2__image--1,
+    .component-2__image--3 {
+      border-right: 1px solid rgba($color-black, 0.05);
+    }
+  }
+}

@@ -10,25 +10,25 @@
   const content = {
     title: "Descubre cómo podemos ayudarte",
     subtitle:
-      "Emergya divide sus servicios y soluciones en varias áreas de<br/>especialización que, de forma individual o conjunta, maximizan los<br/>beneficios del cliente",
+      "Emergya divide sus servicios y soluciones en varias áreas de especialización que, de forma individual o conjunta, maximizan los beneficios del cliente",
     blocks: [
       {
         href: "#",
-        src: "./assets/images/placeholder.jpg",
+        src: "./assets/images/a.jpg",
         alt: "tecnología",
         h4: "tecnología",
         p: "Construímos, migramos y optimizamos grandes sistemas de información en entornos web y móvil.",
       },
       {
         href: "#",
-        src: "./assets/images/placeholder.jpg",
+        src: "./assets/images/b.jpg",
         alt: "digital",
         h4: "digital",
         p: "Definimos, medidos y mejoramos la estrategia digital de nuestros clientes orientada a objetivos.",
       },
       {
         href: "#",
-        src: "./assets/images/placeholder.jpg",
+        src: "./assets/images/c.jpg",
         alt: "outsourcing",
         h4: "outsourcing",
         p: "Tenemos los mejores profesionales, herramientas y técnicas para la externalización de servicios TI.",
@@ -45,9 +45,8 @@
       block: (href, src, alt, h4, p) => `
         <div class="component-1__block">
           <div>
-            <div>+</div>
-            
             <a href="${href}">
+              <div><p>+</p></div>
               <img src="${src}" alt="${alt}" />
             </a>
           </div>

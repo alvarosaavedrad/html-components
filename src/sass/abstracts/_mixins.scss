@@ -1,7 +1,7 @@
 @mixin container($bg-color, $color) {
   background-color: $bg-color;
   color: $color;
-  padding: 2rem 3.5rem;
+  padding: 3rem 6rem;
 }
 
 @mixin container-flex($a, $d, $j) {
