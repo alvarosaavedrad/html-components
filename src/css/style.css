@@ -72,14 +72,41 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  transition: all 300ms;
+}
+
+h2 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  transition: all 300ms;
+}
+
 h3 {
-  font-size: 3.5rem;
-  margin-bottom: 3rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  transition: all 300ms;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
+  transition: all 300ms;
+}
+
+h5 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  transition: all 300ms;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 1rem;
+  transition: all 300ms;
 }
 
 .noselect {
@@ -91,8 +118,15 @@ h4 {
   user-select: none;
 }
 
-.component-1__texts {
+.component-1__container .component-1__texts {
   text-align: center;
+}
+.component-1__container .component-1__blocks .component-1__block p {
+  text-align: justify;
+}
+
+.component-2__container .component-2__texts div p {
+  text-align: justify;
 }
 
 .component-3__container {
@@ -105,15 +139,16 @@ h4 {
 
 .btn, .btn:link, .btn:visited {
   border: none;
-  border-radius: 10rem;
+  border-radius: 0.25rem;
   cursor: pointer;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
   padding: 1.5rem 4rem;
   position: relative;
   text-transform: uppercase;
   text-decoration: none;
-  transition: all 0.2s;
+  transition: all 300ms;
 }
 .btn:hover {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
@@ -124,19 +159,40 @@ h4 {
 }
 .btn--primary {
   background-color: #ff0000;
+  border: 0.095rem solid #ff0000;
   color: rgba(255, 255, 255, 0.85);
+}
+.btn--primary:hover {
+  background-color: #ffffff;
+  color: #ff0000;
 }
 .btn--secondary {
   background-color: #091d3a;
+  border: 0.095rem solid #091d3a;
   color: rgba(255, 255, 255, 0.85);
+}
+.btn--secondary:hover {
+  background-color: #ffffff;
+  border: 0.095rem solid #ffffff;
+  color: #091d3a;
 }
 .btn--white {
   background-color: #ffffff;
+  border: 0.095rem solid #ffffff;
   color: rgba(0, 0, 0, 0.85);
+}
+.btn--white:hover {
+  background-color: #ff0000;
+  border: 0.095rem solid #ff0000;
+  color: rgba(255, 255, 255, 0.85);
 }
 .btn--animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
+}
+
+.component-3__container div .btn--primary {
+  border: 0.095rem solid #ffffff;
 }
 
 .component-1__container {
@@ -146,7 +202,7 @@ h4 {
 }
 .component-1__container .component-1__texts hr {
   border-style: dashed;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
   width: 8rem;
 }
 .component-1__container .component-1__blocks {
@@ -154,17 +210,11 @@ h4 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 .component-1__container .component-1__blocks .component-1__block {
-  margin: 0 1rem;
-  width: 30%;
+  width: 32%;
   height: auto;
-}
-.component-1__container .component-1__blocks .component-1__block a h3 {
-  line-height: 2;
-  margin-bottom: 1rem;
-  transition: color 300ms;
 }
 .component-1__container .component-1__blocks .component-1__block a:hover {
   color: #ff0000;

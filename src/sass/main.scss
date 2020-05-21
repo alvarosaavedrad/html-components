@@ -18,26 +18,19 @@
   .component-1__texts {
     hr {
       border-style: dashed;
-      margin: 0 auto;
+      margin: 0 auto 1rem auto;
       width: 8rem;
     }
   }
 
   .component-1__blocks {
-    @include container-flex(initial, row, center);
+    @include container-flex(initial, row, space-between);
 
     .component-1__block {
-      margin: 0 1rem;
-      width: 30%;
+      width: 32%;
       height: auto;
 
       a {
-        h3 {
-          line-height: 2;
-          margin-bottom: 1rem;
-          transition: color 300ms;
-        }
-
         &:hover {
           color: $color-corporate-primary;
         }
