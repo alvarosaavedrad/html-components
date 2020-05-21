@@ -8,9 +8,7 @@ Several HTML components for different projects.
 
 Open `./src/index.html` to display all components.
 
-Components texts must be overwritten by setting the `content` object which is at the beginning of every component.
-
-All images are placeholder type and are located in `./src/assets/images/`.
+All images are located in `./src/assets/images/`.
 
 Binary files as images are managed with [Git LFS](https://git-lfs.github.com/).
 
@@ -24,4 +22,4 @@ Red line under title in left block is animated from 0 to 100 every 4 seconds. Br
 
 ### Component 3️⃣
 
-Description line is animated as type writing every 5 seconds. Jobs number can be changed by param.
+Description line is animated as writing effect every 5 seconds. Jobs number can be changed by param.
